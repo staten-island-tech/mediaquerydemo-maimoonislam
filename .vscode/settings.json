@@ -8,7 +8,7 @@
     {
       "extensionName": ".min.css",
       "format": "compressed",
-      "savePath": "/scss"
+      "savePath": "/src/scss"
     }
   ],
   "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
