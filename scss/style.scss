@@ -1,3 +1,33 @@
-body {
-    background-color: green;
-}
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+   
+  div {
+    height: 110%;
+  }
+   
+  header {
+    height: 110%;
+  }
+   
+  .homepage {
+    display: flex;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(81, 255, 66, 0.459),
+        rgba(16, 94, 0, 0.555)
+      ),
+      url(img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  
