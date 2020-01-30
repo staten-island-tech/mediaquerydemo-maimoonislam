@@ -23,7 +23,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Anton', sans-serif;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -35,17 +35,21 @@ header {
 }
 
 .places {
-  background-color: #d2ffe1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(66, 242, 255, 0.459)), to(rgba(0, 6, 94, 0.555))), url(img/main2.jpg);
+  background-image: linear-gradient(to bottom, rgba(66, 242, 255, 0.459), rgba(0, 6, 94, 0.555)), url(img/main2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200%;
-  font-family: "Ubuntu", sans-serif;
+  height: 100%;
+  font-family: 'Lobster', cursive;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
   font-size: 5rem;
   margin-bottom: 0.75rem;
 }
